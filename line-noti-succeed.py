@@ -16,8 +16,8 @@ msg = 'Successfully Build http://qisl.aladdin.co.th/'
 # msg = 'Error Build, Please re-checking again!'
 
 mydata = {
-  'stickerPackageId': 2,
-  'stickerId': 34,
+  'stickerPackageId': 1,
+  'stickerId': 403,
   'message': msg,
   }
 
