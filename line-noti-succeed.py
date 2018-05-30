@@ -16,8 +16,8 @@ msg = 'Successfully Build https://dohome.aladdin.co.th/'
 # msg = 'Error Build, Please re-checking again!'
 
 mydata = {
-  'stickerPackageId': 1,
-  'stickerId': 403,
+#   'stickerPackageId': 1,
+#   'stickerId': 403,
   'message': msg,
   }
 
