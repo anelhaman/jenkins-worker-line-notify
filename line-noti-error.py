@@ -9,7 +9,7 @@
 import requests
 
 url = 'https://notify-api.line.me/api/notify'
-token = 'Lb3PxUO8qc5olGmWSCoBagq1W5ZATViiX5fyotZ0nWh'
+token = '5yAHpkG0sZXhtN7sFSlMJ8SZX1zyaF8VlOeO81ZUhNN'
 headers = {'content-type':'application/x-www-form-urlencoded','Authorization':'Bearer '+token}
 
 #msg = 'Successfully Build http://www.prachindaily.com'
