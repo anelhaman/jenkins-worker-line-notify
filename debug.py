@@ -1,3 +1,5 @@
 
 from datetime import datetime
-print(str(datetime.now()))
+msg = str(datetime.now())
+
+print "now "+msg
