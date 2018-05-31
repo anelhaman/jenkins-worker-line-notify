@@ -1,3 +1,3 @@
 
 from datetime import datetime
-str(datetime.now())
+print(str(datetime.now()))
