@@ -7,6 +7,7 @@
 # const information_StickerId = 34;
 
 import requests
+from datetime import datetime
 
 url = 'https://notify-api.line.me/api/notify'
 token = '5yAHpkG0sZXhtN7sFSlMJ8SZX1zyaF8VlOeO81ZUhNN'
