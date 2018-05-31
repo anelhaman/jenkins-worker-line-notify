@@ -7,13 +7,13 @@
 # const information_StickerId = 34;
 
 import requests
-from datetime import datetime
+import time
 
 url = 'https://notify-api.line.me/api/notify'
 token = '5yAHpkG0sZXhtN7sFSlMJ8SZX1zyaF8VlOeO81ZUhNN'
 headers = {'content-type':'application/x-www-form-urlencoded','Authorization':'Bearer '+token}
 
-time = str(datetime.now())
+time = time.strftime("%c") 
 msg = 'Successfully Build https://www.dohome.co.th/ '+ time
 # msg = 'Error Build, Please re-checking again!'
 
