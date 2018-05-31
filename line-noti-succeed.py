@@ -13,7 +13,8 @@ url = 'https://notify-api.line.me/api/notify'
 token = '5yAHpkG0sZXhtN7sFSlMJ8SZX1zyaF8VlOeO81ZUhNN'
 headers = {'content-type':'application/x-www-form-urlencoded','Authorization':'Bearer '+token}
 
-msg = 'Successfully Build https://www.dohome.co.th/'
+time = str(datetime.now())
+msg = 'Successfully Build https://www.dohome.co.th/ '+ time
 # msg = 'Error Build, Please re-checking again!'
 
 mydata = {
